@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Waited for updating!
+[CV](../files/Resume-Jie Zhu-20240522.pdf)
 
 <!-- Education
 ======
