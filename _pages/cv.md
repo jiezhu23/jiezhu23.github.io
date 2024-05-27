@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[CV](../files/Resume-Jie Zhu-20240522.pdf)
+You can download my CV [here](../files/Resume-Jie Zhu-20240522.pdf)
 
 <!-- Education
 ======
