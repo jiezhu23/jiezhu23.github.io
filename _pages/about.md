@@ -20,6 +20,7 @@ Previously, I received my Master's degree in Computer Science from [George Washi
 - [2023.08] I joined the [Computer Vision Lab (CVLAB)](http://cvlab.cse.msu.edu/) as a PhD student advised by [Dr. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html).
 
 # Academic Services
+- Reviewer: IJCBLRR 2024
 - Reviewer: FG 2024
 
 # Beyond Research
