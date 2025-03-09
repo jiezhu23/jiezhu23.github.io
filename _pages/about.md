@@ -16,12 +16,13 @@ My current research interests lie in the field of Computer Vision, with particul
 Previously, I received my Master's degree in Computer Science from [George Washington University](https://graduate.engineering.gwu.edu/) in 2023. I received my Bachelor's degree in Information Security from [Northeastern University](https://www.neu.edu.cn/), Shenyang, China. 
 
 # News
+- [2025.03] Two paper are submitted to ICCV 2025.
 - [2024.05] One paper is accepted by IEEE RO-MAN 2024.
 - [2023.08] I joined the [Computer Vision Lab (CVLAB)](http://cvlab.cse.msu.edu/) as a PhD student advised by [Dr. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html).
 
 # Academic Services
 - Reviewer: IJCBLRR 2024
-- Reviewer: FG 2024
+- Reviewer: FG 2024-2025
 
 # Beyond Research
-Life is more than just research. I have diverse interests such as photography, cooking, sports like badminton and taekwondo, and music including the saxophone, flute, and Guzheng (a traditional Chinese instrument).
+Life is more than just research. I have diverse interests such as photography, cooking, sports like badminton and snowboarding, and music including the saxophone, flute, and Guzheng (a traditional Chinese instrument).
