@@ -11,7 +11,7 @@ redirect_from:
 
 Welcome! I am a second-year PhD student in the [Computer Science and Engineering Department](https://engineering.msu.edu/about/departments/cse) at [Michigan State University](https://msu.edu/). I’m honored to work with the guidance of [Dr. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html) at [Computer Vision Lab (CVLAB)](http://cvlab.cse.msu.edu/). 
 
-My current research interests lie in the field of Computer Vision, with particular interests in Fine-grained Understanding, Multi-modal, and Representation Learning. I also have some experience with Video Question Answering (VQA), Text-to-Speech (TTS), and Reinforcement Learning (RL).
+My current research interests lie in the field of Computer Vision, with particular interests in **Fine-grained Understanding**, **Multi-modal**, and **Representation Learning**. I also have some experience with Video Question Answering (VQA), Text-to-Speech (TTS), and Reinforcement Learning (RL).
 
 Previously, I received my Master's degree in Computer Science from [George Washington University](https://graduate.engineering.gwu.edu/) in 2023. I received my Bachelor's degree in Information Security from [Northeastern University](https://www.neu.edu.cn/), Shenyang, China. 
 
