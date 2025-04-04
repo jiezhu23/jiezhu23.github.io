@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can also find my latest CV [here](../files/Resume-Jie Zhu-20250310.pdf)
+You can also find my latest CV [here](../files/Resume-Jie Zhu.pdf)
 
 <!-- Education
 ======

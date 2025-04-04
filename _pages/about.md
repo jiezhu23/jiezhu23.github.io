@@ -13,7 +13,7 @@ Welcome! I am a second-year PhD student in the [Computer Science and Engineering
 
 My current research interests lie in the field of Computer Vision, with particular interests in **Fine-grained Understanding**, **Multi-modal**, and **Representation Learning**. I also have some experience with Video Question Answering (VQA), Text-to-Speech (TTS), and Reinforcement Learning (RL).
 
-Previously, I received my Master's degree in Computer Science from [George Washington University](https://graduate.engineering.gwu.edu/) in 2023. I received my Bachelor's degree in Information Security from [Northeastern University](https://www.neu.edu.cn/), Shenyang, China. 
+Previously, I received my Master's degree in Computer Science from [George Washington University](https://graduate.engineering.gwu.edu/) in 2023. I received my Bachelor's degree in Information Security from [Northeastern University](https://english.neu.edu.cn/), Shenyang, China. During working in [Research of Institute of Tsinghua, Pearl River Delta](http://www.tsinghua-gd.org/), I have filed 14 Chinese patents, of which 10 have been granted.
 
 # News
 - [2025.03] Two papers are submitted to ICCV 2025.
