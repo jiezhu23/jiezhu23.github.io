@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2025-05-15-ReFineRFT
 excerpt: ''
 date: 2025-05-15
-authors: '**Jie Zhu**, Xiaoming Liu'
+authors: '**Jie Zhu**, and Xiaoming Liu'
 venue: 'NeurIPS (Under review)'
 paperurl: '../files/ReFineRFT_NIPS25_Jie.pdf'
 # codeurl: 'https://github.com/junwenchen/ATM'
