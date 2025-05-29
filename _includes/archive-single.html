@@ -42,9 +42,9 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           {% if post.authors %}
-            <p class="archive__item-authors" style="margin-bottom: 0em;">{% assign authors = post.authors | split: ", " %}{% for author in authors %}{% if author contains "**" %}{% assign author_name = author | remove: "**" %}<strong>{{ author_name }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+            <p class="archive__item-authors" style="margin-bottom: -2em;">{% assign authors = post.authors | split: ", " %}{% for author in authors %}{% if author contains "**" %}{% assign author_name = author | remove: "**" %}<strong>{{ author_name }}</strong>{% else %}{{ author }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
           {% endif %}
-          <p class="archive__item-venue" style="margin-bottom: 0em;"> <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p class="archive__item-venue" style="margin-bottom: -2em;"> <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.date %}
          <p class="page__date" style="margin-bottom: 0.5em;"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -56,11 +56,11 @@
     {% endif %}
     
     {% if post.paperurl and post.codeurl %}
-      <p class="archive__item-links" style="margin-bottom: 0em;"><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.codeurl }}">Code</a></p>
+      <p><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.codeurl }}">Code</a></p>
     {% elsif post.paperurl %}
-      <p class="archive__item-links" style="margin-bottom: 0em;"><a href="{{ post.paperurl }}">Paper</a></p>
+      <p><a href="{{ post.paperurl }}">Paper</a></p>
     {% elsif post.codeurl %}
-      <p class="archive__item-links" style="margin-bottom: 0em;"><a href="{{ post.codeurl }}">Code</a></p>
+      <p><a href="{{ post.codeurl }}">Code</a></p>
     {% endif %}
 
     <!-- {% if post.citation and post.paperurl and post.codeurl %}
