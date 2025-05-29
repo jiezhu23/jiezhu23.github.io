@@ -1,11 +1,12 @@
 ---
-title: "Subtoken Image Transformer (SiT) for Generalized Category Discovery"
+title: "ReFine-RFT: Improving Reasoning Capability of Multimodal LLMs for Fine-grained Recognition"
 collection: publications
-permalink: /publication/2025-03-10-SiT
+permalink: /publication/2025-05-15-ReFineRFT
 excerpt: ''
-date: 2025-03-10
-venue: 'ICCV (Under review)'
-paperurl: '../files/SiT_ICCV25_Jie.pdf'
+date: 2025-05-15
+authors: '**Jie Zhu**, Xiaoming Liu'
+venue: 'NeurIPS (Under review)'
+paperurl: '../files/ReFineRFT_NIPS25_Jie.pdf'
 # codeurl: 'https://github.com/junwenchen/ATM'
 # citation: 'Chen J, Zhu J, Kong Y. ATM: Action Temporality Modeling for Video Question Answering[C]//Proceedings of the 31st ACM International Conference on Multimedia. 2023: 4886-4895.'
 ---
