@@ -16,6 +16,7 @@ My current research interests lie in the field of Computer Vision, with particul
 Previously, I received my Master's degree in Computer Science from [George Washington University](https://graduate.engineering.gwu.edu/) in 2023. I received my Bachelor's degree in Information Security from [Northeastern University](https://english.neu.edu.cn/), Shenyang, China. During working in [Research of Institute of Tsinghua, Pearl River Delta](http://www.tsinghua-gd.org/), I have filed 14 Chinese patents, of which 10 have been granted.
 
 # News
+- [2025.06] One paper is accepted by ICCV 2025!🥳
 - [2025.05] Two papers are submitted to NeurIPS 2025.
 - [2025.03] Two papers are submitted to ICCV 2025.
 - [2024.05] One paper is accepted by IEEE RO-MAN 2024.
