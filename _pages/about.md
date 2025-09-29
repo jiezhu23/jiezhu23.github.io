@@ -9,11 +9,14 @@ redirect_from:
 
 # About me
 
-Welcome! I am a third-year PhD student in the [Computer Science and Engineering Department](https://engineering.msu.edu/about/departments/cse) at [Michigan State University](https://msu.edu/). I’m honored to work with the guidance of [Dr. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html) at [Computer Vision Lab (CVLAB)](http://cvlab.cse.msu.edu/). 
+Welcome! I am a third-year Ph.D. student in the [Department of Computer Science and Engineering](https://engineering.msu.edu/about/departments/cse) at [Michigan State University](https://msu.edu/), advised by [Dr. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html). I also collaborate closely with [Dr. Anil Jain](https://www.cse.msu.edu/~jain/). 
 
-My current research interests lie in the field of Computer Vision, with particular interests in **MLLMs**, **Agents**,  **Visual Understanding**, and **Biometrics**. I also have some experience with Video Question Answering (VQA), Text-to-Speech (TTS).
+My research interests span multimodal learning and biometrics. In particular, I work on:  
+- **Multimodal Large Language Models (MLLMs)** and **Reinforcement Post-training** ([Paper](https://jiezhu23.github.io/files/ReFineRFT_Jie.pdf))
+- **Multimodal Biometrics** ([ICCV25 Paper](https://arxiv.org/pdf/2508.00053), [TPAMI under review](https://arxiv.org/pdf/2505.04616)) 
+- **Visual Question Answering (VQA)** ([MM23 Paper](https://arxiv.org/pdf/2309.02290)) and broader visual understanding.
 
-Previously, I received my Master's degree in Computer Science from [George Washington University](https://graduate.engineering.gwu.edu/) in 2023. I received my Bachelor's degree in Information Security from [Northeastern University](https://english.neu.edu.cn/), Shenyang, China. During working in [Research of Institute of Tsinghua, Pearl River Delta](http://www.tsinghua-gd.org/), I have filed 14 Chinese patents, of which 10 have been granted.
+Prior to MSU, I received my M.S. in Computer Science from [George Washington University](https://graduate.engineering.gwu.edu/) in 2023, and my B.S. in Computer Science from [Northeastern University](https://english.neu.edu.cn/) (Shenyang, China) in 2020. During working in [Research of Institute of Tsinghua, Pearl River Delta](http://www.tsinghua-gd.org/), I have filed 14 Chinese patents, of which 10 have been granted.
 
 # News
 - [2025.06] One paper is accepted by ICCV 2025!🥳
