@@ -11,6 +11,16 @@ author_profile: true
 
 {% include base_path %}
 
+<h2>Selected Publications</h2>
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.selected %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Other Publications</h2>
+{% for post in site.publications reversed %}
+  {% if post.selected != true %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}

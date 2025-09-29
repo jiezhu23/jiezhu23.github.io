@@ -12,7 +12,7 @@ redirect_from:
 Welcome! I am a third-year Ph.D. student in the [Department of Computer Science and Engineering](https://engineering.msu.edu/about/departments/cse) at [Michigan State University](https://msu.edu/), advised by [Dr. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html). I also collaborate closely with [Dr. Anil Jain](https://www.cse.msu.edu/~jain/). 
 
 My research interests span multimodal learning and biometrics. In particular, I work on:  
-- **Multimodal Large Language Models (MLLMs)** and **Reinforcement Post-training** ([Paper](https://jiezhu23.github.io/files/ReFineRFT_Jie.pdf))
+- **Multimodal Large Language Models (MLLMs)** and **Reinforcement Post-training** ([Paper](https://jiezhu23.github.io/files/Papers/ReFineRFT_Jie.pdf))
 - **Multimodal Biometrics** ([ICCV25 Paper](https://arxiv.org/pdf/2508.00053), [TPAMI under review](https://arxiv.org/pdf/2505.04616)) 
 - **Visual Question Answering (VQA)** ([MM23 Paper](https://arxiv.org/pdf/2309.02290)) and broader visual understanding.
 
