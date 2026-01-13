@@ -28,9 +28,7 @@ Prior to MSU, I received my M.S. in Computer Science from [George Washington Uni
 - [2023.08] I joined the [Computer Vision Lab (CVLAB)](http://cvlab.cse.msu.edu/) as a PhD student advised by [Dr. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html).
 
 # Academic Services
-- Reviewer: TPAMI 2025
-- Reviewer: IJCBLRR 2024
-- Reviewer: FG 2024-2026
+- Reviewer: TCSVT, TPAMI, IJCBLRR, FG (2024-2026)
 
 # Beyond Research
 Life is more than just research. I have diverse interests such as photography, cooking, sports like badminton and snowboarding, and music including the saxophone, flute, and Guzheng (a traditional Chinese instrument).
