@@ -1,14 +1,15 @@
 ---
-title: "ReFine-RFT: Improving Reasoning Capability of Multimodal LLMs for Fine-grained Recognition"
+title: "Can Textual Reasoning Improve the Performance of MLLMs on Fine-grained Visual Classification?"
 collection: publications
-permalink: /publication/2025-05-15-ReFineRFT
-selected: false
+permalink: /publication/2026-01-13-ReFineRFT
+selected: true
 excerpt: ''
-date: 2025-05-15
-authors: '**Jie Zhu**, and Xiaoming Liu'
-venue: 'Under review'
-paperurl: '../files/Papers/ReFineRFT_Jie.pdf'
-# codeurl: 'https://github.com/junwenchen/ATM'
+date: 2026-01-13
+authors: '**Jie Zhu**, Yiyang Su, and Xiaoming Liu'
+venue: 'arXiv'
+paperurl: 'https://arxiv.org/pdf/2601.06993'
+codeurl: 'https://github.com/jiezhu23/ReFine-RFT'
+
 # citation: 'Chen J, Zhu J, Kong Y. ATM: Action Temporality Modeling for Video Question Answering[C]//Proceedings of the 31st ACM International Conference on Multimedia. 2023: 4886-4895.'
 ---
 
