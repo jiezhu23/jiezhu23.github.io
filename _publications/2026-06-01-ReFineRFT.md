@@ -1,12 +1,12 @@
 ---
 title: "Can Textual Reasoning Improve the Performance of MLLMs on Fine-grained Visual Classification?"
 collection: publications
-permalink: /publication/2026-01-13-ReFineRFT
+permalink: /publication/2026-06-01-ReFineRFT
 selected: true
 excerpt: ''
-date: 2026-01-13
+date: 2026-06-01
 authors: '**Jie Zhu**, Yiyang Su, and Xiaoming Liu'
-venue: 'arXiv'
+venue: 'CVPR-F'
 paperurl: 'https://arxiv.org/pdf/2601.06993'
 codeurl: 'https://github.com/jiezhu23/ReFine-RFT'
 
