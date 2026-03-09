@@ -66,6 +66,16 @@
   }
 }
 
+.archive__item-links {
+  margin-top: 0.5em;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+  }
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;

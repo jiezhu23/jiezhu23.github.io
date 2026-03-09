@@ -9,7 +9,7 @@ authors: '**Jie Zhu**, Yiyang Su, and Xiaoming Liu'
 venue: 'CVPR-F'
 paperurl: 'https://arxiv.org/pdf/2601.06993'
 codeurl: 'https://github.com/jiezhu23/ReFine-RFT'
-# projecturl: ''
+projecturl: 'https://refine-rft.github.io/'
 
 # citation: 'Chen J, Zhu J, Kong Y. ATM: Action Temporality Modeling for Video Question Answering[C]//Proceedings of the 31st ACM International Conference on Multimedia. 2023: 4886-4895.'
 ---

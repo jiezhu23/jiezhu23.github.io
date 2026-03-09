@@ -55,12 +55,29 @@
     <p class="archive__item-excerpt" itemprop="description" style="margin-bottom: 0.5em;"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.paperurl and post.codeurl %}
-      <p><a href="{{ post.paperurl }}">Paper</a> | <a href="{{ post.codeurl }}">Code</a></p>
-    {% elsif post.paperurl %}
-      <p><a href="{{ post.paperurl }}">Paper</a></p>
-    {% elsif post.codeurl %}
-      <p><a href="{{ post.codeurl }}">Code</a></p>
+    {% if post.paperurl or post.codeurl or post.projecturl %}
+      <p class="archive__item-links">
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}">
+            <i class="fas fa-file-alt" aria-hidden="true"></i>
+            <span>Paper</span>
+          </a>
+        {% endif %}
+        {% if post.codeurl %}
+          {% if post.paperurl %} | {% endif %}
+          <a href="{{ post.codeurl }}">
+            <i class="fab fa-github" aria-hidden="true"></i>
+            <span>Code</span>
+          </a>
+        {% endif %}
+        {% if post.projecturl %}
+          {% if post.paperurl or post.codeurl %} | {% endif %}
+          <a href="{{ post.projecturl }}">
+            <i class="fas fa-globe" aria-hidden="true"></i>
+            <span>Project</span>
+          </a>
+        {% endif %}
+      </p>
     {% endif %}
 
     <!-- {% if post.citation and post.paperurl and post.codeurl %}
