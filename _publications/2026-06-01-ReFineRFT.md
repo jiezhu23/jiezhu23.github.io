@@ -7,6 +7,7 @@ excerpt: ''
 date: 2026-06-01
 authors: '**Jie Zhu**, Yiyang Su, and Xiaoming Liu'
 venue: 'CVPR-F'
+priority: 3
 paperurl: 'https://arxiv.org/pdf/2601.06993'
 codeurl: 'https://github.com/jiezhu23/ReFine-RFT'
 projecturl: 'https://refine-rft.github.io/'

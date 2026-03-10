@@ -66,14 +66,53 @@
   }
 }
 
+.archive__item-authors {
+  margin-bottom: 0.2em;
+}
+
+.archive__item-venue {
+  margin-bottom: 0.8em;
+  color: mix(#fff, $gray, 15%);
+}
+
 .archive__item-links {
-  margin-top: 0.5em;
+  margin-top: 0.95em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65em;
 
   a {
     display: inline-flex;
     align-items: center;
-    gap: 0.35em;
+    gap: 0.45em;
+    padding: 0.38em 0.85em;
+    border-radius: 999px;
+    font-size: $type-size-6;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+
+    &:hover {
+      text-decoration: none;
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px rgba(#000, 0.08);
+    }
   }
+}
+
+.archive__item-link--paper {
+  color: #7c2d12;
+  background: #ffedd5;
+}
+
+.archive__item-link--code {
+  color: #0f3d2e;
+  background: #dcfce7;
+}
+
+.archive__item-link--project {
+  color: #1e3a8a;
+  background: #dbeafe;
 }
 
 .archive__item-teaser {
