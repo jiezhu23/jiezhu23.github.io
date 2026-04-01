@@ -8,7 +8,7 @@ date: 2026-06-01
 authors: '**Jie Zhu**, Xiao Guo, Yiyang Su, Anil Jain, Xiaoming Liu'
 venue: 'CVPR'
 priority: 2
-paperurl: 'https://arxiv.org/pdf/'
+paperurl: 'https://arxiv.org/pdf/2603.26908'
 codeurl: 'https://github.com/jiezhu23/FusionAgent_CVPR26'
 projecturl: 'https://fusionagent.github.io/'
 
