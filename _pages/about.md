@@ -1,11 +1,11 @@
 ---
-permalink: /
+
+## permalink: /
 title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
----
 
 # About me
 
@@ -13,14 +13,13 @@ Welcome! I am a third-year Ph.D. student in the [Department of Computer Science 
 
 My research interests are MLLMs, Reinforcement Learning, Agents, VQA, and Multimodal. 
 
-<!-- In particular, I work on:  
-- **Multimodal Large Language Models (MLLMs)** and **Reinforcement Post-training** ([Paper](https://jiezhu23.github.io/files/Papers/ReFineRFT_Jie.pdf))
-- **Multimodal Biometrics** ([ICCV25 Paper](https://arxiv.org/pdf/2508.00053), [TPAMI under review](https://arxiv.org/pdf/2505.04616)) 
-- **Visual Question Answering (VQA)** ([MM23 Paper](https://arxiv.org/pdf/2309.02290)) and broader visual understanding. -->
 
 Prior to MSU, I received my M.S. in Computer Science from [George Washington University](https://graduate.engineering.gwu.edu/) in 2023, and my B.S. in Computer Science from [Northeastern University](https://english.neu.edu.cn/) (Shenyang, China) in 2020. During working in [Research of Institute of Tsinghua, Pearl River Delta](http://www.tsinghua-gd.org/), I have filed 14 Chinese patents, of which 10 have been granted.
 
 # News
+
+- [2026.04] I will join UNC as a Ph.D. student.
+- [2026.03] I will join Bosch USA as a summer intern.
 - [2026.03] One paper is submitted to ECCV 2026.
 - [2026.02] Two papers are accepted by CVPR 2026! 🥳
 - [2025.06] One paper is accepted by ICCV 2025! 🥳
@@ -29,7 +28,9 @@ Prior to MSU, I received my M.S. in Computer Science from [George Washington Uni
 - [2023.08] I joined the [Computer Vision Lab (CVLAB)](http://cvlab.cse.msu.edu/) as a PhD student advised by [Dr. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html).
 
 # Academic Services
+
 - Reviewer: TCSVT, TPAMI, IJCBLRR, FG (2024-2026)
 
 # Beyond Research
+
 Life is more than just research. I have diverse interests such as photography, cooking, sports like badminton and snowboarding, and music including the saxophone, flute, and Guzheng (a traditional Chinese instrument).
