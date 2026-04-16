@@ -18,7 +18,7 @@ Prior to MSU, I received my M.S. in Computer Science from [George Washington Uni
 
 # News
 
-- [2026.04] I will join UNC as a Ph.D. student.
+- [2026.04] I will join UNC as a Ph.D. student on Fall 2026.
 - [2026.03] I will join Bosch USA as a summer intern.
 - [2026.03] One paper is submitted to ECCV 2026.
 - [2026.02] Two papers are accepted by CVPR 2026! 🥳
