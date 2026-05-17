@@ -1,15 +1,17 @@
 ---
-title: "Subtoken Image Transformer (SiT) for Generalizable Fine-grained Recognition"
+title: "DepthAgent:  Towards Better Universal Depth Estimation via Sample-wise Expert Selection"
 collection: publications
-permalink: /publication/2025-05-15-SiT
-selected: false
+permalink: /publication/2026-06-01-DepthAgent
+selected: true
 excerpt: ''
-date: 2025-05-15
-authors: '**Jie Zhu**, Minchul Kim, Zhizhong Huang, and Xiaoming Liu'
+date: 2026-06-01
+authors: '**Jie Zhu**, Girish Chandar Ganesan,, Xiaoming Liu'
 venue: 'Under review'
-priority: 10
-paperurl: '../files/Papers/SiT_Jie.pdf'
-# codeurl: 'https://github.com/junwenchen/ATM'
+priority: 4
+paperurl: '../files/Papers/DepthAgent_NIPS26_Jie.pdf'
+codeurl:  
+projecturl:
+
 # citation: 'Chen J, Zhu J, Kong Y. ATM: Action Temporality Modeling for Video Question Answering[C]//Proceedings of the 31st ACM International Conference on Multimedia. 2023: 4886-4895.'
 ---
 
