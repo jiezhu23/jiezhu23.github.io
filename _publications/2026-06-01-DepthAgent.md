@@ -5,7 +5,7 @@ permalink: /publication/2026-06-01-DepthAgent
 selected: true
 excerpt: ''
 date: 2026-06-01
-authors: '**Jie Zhu**, Girish Chandar Ganesan,, Xiaoming Liu'
+authors: '**Jie Zhu**, Girish Chandar Ganesan, Xiaoming Liu'
 venue: 'Under review'
 priority: 4
 paperurl: '../files/Papers/DepthAgent_NIPS26_Jie.pdf'
