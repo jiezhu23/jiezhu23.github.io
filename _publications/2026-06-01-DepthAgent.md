@@ -8,7 +8,7 @@ date: 2026-06-01
 authors: '**Jie Zhu**, Girish Chandar Ganesan, Xiaoming Liu'
 venue: 'Under review'
 priority: 4
-paperurl: '../files/Papers/DepthAgent_NIPS26_Jie.pdf'
+paperurl: 'https://arxiv.org/pdf/2605.23281'
 codeurl:  
 projecturl:
 
