@@ -20,7 +20,6 @@ Prior to MSU, I received my M.S. in Computer Science from [George Washington Uni
 - [2026.05] Two papers are submitted to NeurIPS 2026.
 - [2026.04] I will join UNC as a Ph.D. student on Fall 2026.
 - [2026.03] I will join Bosch USA as a research intern during Summer 2026.
-- [2026.03] One paper is submitted to ECCV 2026.
 - [2026.02] Two papers are accepted by CVPR 2026! 🥳
 - [2025.06] One paper is accepted by ICCV 2025! 🥳
 - [2024.05] One paper is accepted by IEEE RO-MAN 2024.
@@ -28,7 +27,7 @@ Prior to MSU, I received my M.S. in Computer Science from [George Washington Uni
 
 # Academic Services
 
-- Reviewer: TCSVT, TPAMI, IJCBLRR, FG (2024-2026)
+- Reviewer: NeurIPS (2026), TCSVT, TPAMI, IJCBLRR, FG (2024-2026)
 
 # Beyond Research
 
