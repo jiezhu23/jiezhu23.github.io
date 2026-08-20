@@ -135,6 +135,15 @@
   }
 }
 
+/* Biographic lines (location, employer) are plain text, not links -- let them
+   wrap instead of being clipped by the sidebar's horizontal overflow. */
+.author__urls li.author__desktop {
+  white-space: normal;
+  overflow-wrap: break-word;
+  text-indent: -1.2em;
+  padding-left: 1.2em;
+}
+
 .author__pronouns {
   margin: 0;
 
