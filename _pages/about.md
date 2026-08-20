@@ -9,12 +9,12 @@ redirect_from:
 
 # About me
 
-Welcome! I am currently a third-year Ph.D. student in the [Department of Computer Science and Engineering](https://engineering.msu.edu/about/departments/cse) at [Michigan State University](https://msu.edu/), advised by [Dr. Xiaoming Liu](https://www.cse.msu.edu/~liuxm/index2.html). I also collaborate closely with [Dr. Anil Jain](https://www.cse.msu.edu/~jain/). 
+Welcome! I am currently a fourth-year Ph.D. student in the [Department of Computer Science](https://cs.unc.edu/) at [The University of North Carolina at Chapel Hill](https://www.unc.edu/), advised by [Dr. Xiaoming Liu](https://cs.unc.edu/person/xiaoming-liu/). I also collaborate closely with [Dr. Anil Jain](https://www.cse.msu.edu/~jain/). 
 
 My research interests are MLLMs, Reinforcement Learning, Agents, VQA, and Multimodal. 
 
 
-Prior to MSU, I received my M.S. in Computer Science from [George Washington University](https://graduate.engineering.gwu.edu/) in 2023, and my B.S. in Computer Science from [Northeastern University](https://english.neu.edu.cn/) (Shenyang, China) in 2020. During working in [Research of Institute of Tsinghua, Pearl River Delta](http://www.tsinghua-gd.org/), I have filed 14 Chinese patents, of which 10 have been granted.
+Prior to UNC, I received my M.S. in Computer Science from [George Washington University](https://graduate.engineering.gwu.edu/) in 2023, and my B.S. in Computer Science from [Northeastern University](https://english.neu.edu.cn/) (Shenyang, China) in 2020. During working in [Research of Institute of Tsinghua, Pearl River Delta](http://www.tsinghua-gd.org/), I have filed 14 Chinese patents, of which 10 have been granted.
 
 # News
 - [2026.05] Two papers are submitted to NeurIPS 2026.

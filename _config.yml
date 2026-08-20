@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Jie Zhu-CS PhD@MSU"
+title                    : "Jie Zhu-CS PhD@UNC"
 title_separator          : "-"
 name                     : &name ""
-description              : &description "CS PhD at Michigan State University"
+description              : &description "CS PhD at UNC"
 url                      : https://jiezhu23.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jiezhu23.github.io"
@@ -24,11 +24,11 @@ author:
   avatar           : "bio-photo-jie.png"
   name             : "Jie Zhu"
   pronouns         : "he/his"  
-  bio              : "3rd year CS PhD at Michigan State University"
+  bio              : "4th year CS PhD at UNC"
   location         : "Earth"
-  employer         : "Michigan State University"
+  employer         : "The University of North Carolina at Chapel Hill"
   uri              : # URL
-  email            : "zhujie4@msu.edu" 
+  email            : "jiezhu@cs.unc.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
