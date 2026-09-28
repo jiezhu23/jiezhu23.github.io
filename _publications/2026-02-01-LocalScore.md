@@ -7,7 +7,8 @@ excerpt: ''
 date: 2026-02-01
 authors: 'Yiyang Su, Minchul Kim, **Jie Zhu**, Christopher Perry, Feng Liu, Anil Jain, Xiaoming Liu'
 venue: 'Under review'
-priority: 6
+teaser: 'teasers/LocalScore.jpg'
+priority: 7
 paperurl: 'https://arxiv.org/pdf/2602.01012'
 codeurl: ''
 projecturl: ''

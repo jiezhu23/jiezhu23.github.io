@@ -140,8 +140,12 @@
 .author__urls li.author__desktop {
   white-space: normal;
   overflow-wrap: break-word;
-  text-indent: -1.2em;
-  padding-left: 1.2em;
+  text-indent: -1.75em;  /* icon (1.25em fa-fw) + .icon-pad-right (0.5em) */
+  padding-left: 1.75em;
+
+  i {
+    text-indent: 0;
+  }
 }
 
 .author__pronouns {

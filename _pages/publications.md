@@ -17,10 +17,10 @@ author_profile: true
 
 <h2>Selected Publications</h2>
 {% for post in selected_publications %}
-  {% include archive-single.html %}
+  {% include archive-single-pub.html %}
 {% endfor %}
 
 <h2>Other Publications</h2>
 {% for post in other_publications %}
-  {% include archive-single.html %}
+  {% include archive-single-pub.html %}
 {% endfor %}

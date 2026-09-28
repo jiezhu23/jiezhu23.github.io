@@ -7,6 +7,7 @@ excerpt: ''
 date: 2026-06-01
 authors: '**Jie Zhu**, Girish Chandar Ganesan, Xiaoming Liu'
 venue: 'Under review'
+teaser: 'teasers/DepthAgent.jpg'
 priority: 4
 paperurl: 'https://arxiv.org/pdf/2605.23281'
 codeurl:  

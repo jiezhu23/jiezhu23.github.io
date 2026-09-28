@@ -1,0 +1,22 @@
+# Rendered on the homepage by _includes/cv-entries.html.
+# `heading` and `description` accept Markdown. `logo` is relative to /images/.
+
+- heading: "[The University of North Carolina at Chapel Hill](https://cs.unc.edu/)"
+  logo: logos/unc.png
+  date: 2026.8 - Present
+  description: "Ph.D. in Computer Science. Advisor: [Dr. Xiaoming Liu](https://cs.unc.edu/person/xiaoming-liu/)."
+
+- heading: "[Michigan State University](https://www.cse.msu.edu/)"
+  logo: logos/msu.png
+  date: 2023.8 - 2026.4
+  description: "Ph.D. in Computer Science. Advisor: [Dr. Xiaoming Liu](https://cs.unc.edu/person/xiaoming-liu/)."
+
+- heading: "[George Washington University](https://graduate.engineering.gwu.edu/)"
+  logo: logos/gwu.png
+  date: 2021.9 - 2023.5
+  description: "M.S. in Computer Science."
+
+- heading: "[Northeastern University (China)](https://english.neu.edu.cn/)"
+  logo: logos/neu.png
+  date: 2016.8 - 2020.6
+  description: "B.S. in Computer Science."

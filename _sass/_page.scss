@@ -399,3 +399,104 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+
+/*
+   Education / experience entries (homepage)
+   ========================================================================== */
+
+.cv-entries {
+  margin-bottom: 1.5em;
+}
+
+.cv-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+  padding: 0.55em 0;
+
+  @include breakpoint($small) {
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25em;
+  }
+}
+
+.cv-entry__logo {
+  flex: none;
+
+  @include breakpoint($small) {
+    flex: 0 0 120px;
+  }
+
+  img {
+    display: block;
+    width: 120px;
+    max-height: 64px;
+    object-fit: contain;
+  }
+}
+
+.cv-entry__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.cv-entry__heading {
+  margin-bottom: 0.15em;
+  color: #1e3a8a;
+  font-size: 1.05em;
+  font-weight: 700;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.cv-entry__text {
+  line-height: 1.55;
+}
+
+
+/*
+   News list (homepage): scrollable box showing ~6 latest items
+   ========================================================================== */
+
+.news-scroll {
+  /* assets/js/news-scroll.js sets the exact height for `data-visible` items;
+     these max-heights are the no-JS fallback */
+  position: relative;  /* offsetParent for the items the script measures */
+  /* on phones most items wrap to two lines, so allow more height for ~6 items */
+  max-height: 22em;
+  margin-bottom: 1.5em;
+  padding: 0.75em 1em 0 0.25em;
+  overflow-y: auto;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: mix(#fff, $gray, 40%) transparent;
+  /* scroll shadows: appear only at the edges that have more content */
+  background:
+    linear-gradient(#fff 30%, rgba(#fff, 0)) center top,
+    linear-gradient(rgba(#fff, 0), #fff 70%) center bottom,
+    radial-gradient(farthest-side at 50% 0, rgba(#000, 0.12), transparent) center top,
+    radial-gradient(farthest-side at 50% 100%, rgba(#000, 0.12), transparent) center bottom;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100% 2.5em, 100% 2.5em, 100% 0.75em, 100% 0.75em;
+  background-attachment: local, local, scroll, scroll;
+
+  @include breakpoint($small) {
+    /* each item is 2em tall (line + gap): padding + 6 items + a peek of the 7th */
+    max-height: 13.25em;
+  }
+
+  ul {
+    margin: 0;
+  }
+}

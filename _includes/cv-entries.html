@@ -1,0 +1,28 @@
+{%- comment -%}
+  Renders education / experience entries from _data.
+  Usage: {% include cv-entries.html items=site.data.experience %}
+{%- endcomment -%}
+{%- include base_path -%}
+<div class="cv-entries">
+{%- for item in include.items %}
+  <div class="cv-entry">
+    {%- if item.logo %}
+    <div class="cv-entry__logo">
+      <img src="{{ base_path }}/images/{{ item.logo }}" alt="" loading="lazy">
+    </div>
+    {%- endif %}
+    <div class="cv-entry__body">
+      <div class="cv-entry__heading">{{ item.heading | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+      {%- assign description = item.description | strip %}
+      <div class="cv-entry__text">
+        <em>{{ item.date }}</em>{% if description != "" %}: {{ description | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endif %}
+      </div>
+      {%- if item.mentors %}
+      <div class="cv-entry__text">
+        {% if item.mentors.size > 1 %}Advisors{% else %}Advisor{% endif %}: {% for mentor in item.mentors %}{% if mentor.url %}<a href="{{ mentor.url }}">{{ mentor.name }}</a>{% else %}{{ mentor.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+      </div>
+      {%- endif %}
+    </div>
+  </div>
+{%- endfor %}
+</div>

@@ -1,0 +1,10 @@
+# Rendered on the homepage by _includes/cv-entries.html.
+# `heading` and `description` accept Markdown. `logo` is relative to /images/. `mentors` is optional.
+
+- heading: Research Intern at Bosch USA
+  logo: logos/bosch.png
+  date: 2026.5 - 2026.8
+  description: >-
+  mentors:
+    - name: Yibo Yang
+      url: https://www.linkedin.com/in/yibo-yang
