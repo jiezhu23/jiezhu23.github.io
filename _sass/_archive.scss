@@ -75,6 +75,11 @@
   color: mix(#fff, $gray, 15%);
 }
 
+.pub-highlight {
+  color: #d32f2f;
+  font-weight: 700;
+}
+
 .archive__item-links {
   margin-top: 0.95em;
   display: flex;
