@@ -464,7 +464,7 @@
 
 
 /*
-   News list (homepage): scrollable box showing ~6 latest items
+   News list (homepage): borderless scroll area showing ~6 latest items
    ========================================================================== */
 
 .news-scroll {
@@ -474,26 +474,35 @@
   /* on phones most items wrap to two lines, so allow more height for ~6 items */
   max-height: 22em;
   margin-bottom: 1.5em;
-  padding: 0.75em 1em 0 0.25em;
   overflow-y: auto;
-  border: 1px solid $border-color;
-  border-radius: 6px;
-  scrollbar-width: thin;
-  scrollbar-color: mix(#fff, $gray, 40%) transparent;
-  /* scroll shadows: appear only at the edges that have more content */
-  background:
-    linear-gradient(#fff 30%, rgba(#fff, 0)) center top,
-    linear-gradient(rgba(#fff, 0), #fff 70%) center bottom,
-    radial-gradient(farthest-side at 50% 0, rgba(#000, 0.12), transparent) center top,
-    radial-gradient(farthest-side at 50% 100%, rgba(#000, 0.12), transparent) center bottom;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-size: 100% 2.5em, 100% 2.5em, 100% 0.75em, 100% 0.75em;
-  background-attachment: local, local, scroll, scroll;
+  overscroll-behavior: contain;
+  /* no visible scrollbar: the faded edges show there is more to scroll */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* fade the edges that have more content; the script toggles the classes
+     as you scroll (without JS only the bottom fade is shown) */
+  --news-fade-top: 0em;
+  --news-fade-bottom: 2em;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 var(--news-fade-top), #000 calc(100% - var(--news-fade-bottom)), transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0, #000 var(--news-fade-top), #000 calc(100% - var(--news-fade-bottom)), transparent 100%);
+
+  &.is-at-top {
+    --news-fade-top: 0em;
+  }
+  &.has-more-above {
+    --news-fade-top: 1.5em;
+  }
+  &.is-at-bottom {
+    --news-fade-bottom: 0em;
+  }
 
   @include breakpoint($small) {
-    /* each item is 2em tall (line + gap): padding + 6 items + a peek of the 7th */
-    max-height: 13.25em;
+    /* each item is 2em tall (line + gap): 6 items + a peek of the 7th */
+    max-height: 13em;
   }
 
   ul {
