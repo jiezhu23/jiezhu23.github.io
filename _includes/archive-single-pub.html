@@ -2,7 +2,8 @@
 
 {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% assign year = post.date | default: "1900-01-01" | date: "%Y" %}
-{% if post.venue contains year or post.venue == "Under review" %}
+{% comment %} Journals (`venue_type: journal`) are shown without a year, as are venues that already contain one. {% endcomment %}
+{% if post.venue_type == "journal" or post.venue contains year or post.venue == "Under review" %}
   {% assign venue_label = post.venue %}
 {% else %}
   {% assign venue_label = post.venue | append: " " | append: year %}
