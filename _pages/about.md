@@ -19,9 +19,8 @@ Prior to UNC, I received my M.S. in Computer Science from [George Washington Uni
 # News
 
 <div class="news-scroll" data-visible="6" markdown="1">
-- [2026.10] Our SubViT paper is selected as a **Oral** presentation at ACCV 2026!
-- [2026.09] Four papers are submitted to ICLR 2027.
-- [2026.09] One paper is submitted to ICRA 2027.
+- [2026.11] FarSight2 is accepted by TPAMI!
+- [2026.10] SubViT is selected as a **Oral** presentation at ACCV 2026!
 - [2026.09] SapiensID2.0 is accepted by NeurIPS 2026! 🥳 Congrats to Yiyang!
 - [2026.09] SubViT is accepted by ACCV 2026! 🥳
 - [2026.04] I will join UNC as a Ph.D. student on Fall 2026.
@@ -43,7 +42,7 @@ Prior to UNC, I received my M.S. in Computer Science from [George Washington Uni
 
 # Academic Services
 
-- Reviewer: NeurIPS (2026), TCSVT, TPAMI, IJCBLRR, FG (2024-2026)
+- Reviewer: ICLR (2027), NeurIPS (2026), TCSVT, TPAMI, IJCBLRR, FG (2024-2026)
 
 # Beyond Research
 
